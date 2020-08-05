@@ -37,6 +37,14 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 
+# Ion Unofficial
+ION_BUILD_TYPE := UNOFFICIAL
+ION_RELEASE_TYPE := Release
+
+# Ion Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.ion.maintainer = HanifArdhani
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="platina" \
     TARGET_DEVICE="platina"
