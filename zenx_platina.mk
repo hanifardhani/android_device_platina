@@ -32,6 +32,9 @@ $(call inherit-product, device/xiaomi/platina/device.mk)
 # Inherit some common ZenX-OS stuff.
 $(call inherit-product, vendor/zenx/config/common_full_phone.mk)
 
+# Official ZenX-OS
+ZENX_BUILD_TYPE := Official
+
 # Inherit AOSP product configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
