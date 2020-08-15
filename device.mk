@@ -217,6 +217,9 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/gps/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     $(DEVICE_PATH)/gps/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
 
+# Hardware
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Healthd
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service
