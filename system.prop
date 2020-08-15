@@ -1,2 +1,5 @@
 # Display Cutout
 ro.potato.has_cutout=true
+
+#DISCO
+persist.sys.theme.accent_disco=1
